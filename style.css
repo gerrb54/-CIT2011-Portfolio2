@@ -1,0 +1,171 @@
+:root {
+    --dark-blue: rgb(20, 45, 70);
+    --blue: rgb(70, 130, 180);
+    --sky-blue: rgb(173, 216, 230);
+    --light-blue: rgb(230, 242, 250);
+    --white: rgb(255, 255, 255);
+    --dark-gray: rgb(45, 45, 45);
+
+    --main-font: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--main-font);
+    background-color: var(--light-blue);
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+header {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+nav {
+    background-color: var(--blue);
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--dark-blue);
+}
+main {
+    width: 90%;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+main > h1 {
+    color: var(--dark-blue);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section {
+    background-color: var(--white);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--sky-blue);
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: var(--blue);
+}
+
+section p {
+    margin-bottom: 15px;
+}
+main a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main nav a {
+    color: var(--white);
+}
+
+main nav a:hover {
+    color: var(--dark-blue);
+}
+
+
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#takeaway {
+    border-left: 5px solid var(--blue);
+}
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+}
