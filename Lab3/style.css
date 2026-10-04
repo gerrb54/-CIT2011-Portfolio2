@@ -1,0 +1,30 @@
+body {font-family: "Times New Roman", serif; margin: 0; background-color: #f2faff; color: black;}
+header {background-color: skyblue; text-align: center; padding: 20px;}
+header h1 {margin: 0;}
+nav {background-color: lightblue; text-align: center; padding: 15px;}
+nav a {color: black; text-decoration: none; margin: 15px;}
+nav a:hover {text-decoration: underline;}
+main {width: 80%; margin: auto;}
+section {background-color: white; margin-top: 20px; padding: 20px;}
+h2 {color: #276b8a;}
+.profile {display: flex; align-items: center;}
+.profile img {margin-right: 25px;}
+span {color: #276b8a;}
+li {margin: 10px;}
+.table-box {overflow-x: auto;}
+table {width: 100%; border-collapse: collapse;}
+table, th, td {border: 1px solid black;}
+th, td {padding: 10px; text-align: left;}
+th {background-color: skyblue;}
+form {width: 70%;}
+label {display: block; margin-top: 10px;}
+input, textarea {width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 10px;}
+input[type="submit"] {width: 100px; background-color: skyblue; border: 1px solid black; padding: 10px;}
+footer {background-color: skyblue; text-align: center; padding: 15px; margin-top: 20px;}
+@media (max-width: 600px) {
+main {width: 95%;}
+nav a {display: block; margin: 10px;}
+.profile {display: block; text-align: center;}
+.profile img {margin-right: 0;}
+form {width: 100%;}
+}
